@@ -581,7 +581,7 @@ def main():
 
     # Configurar opciones de Chrome
     chrome_options = webdriver.ChromeOptions()
-    # chrome_options.add_argument('--headless=new')  # Descomentar para modo headless
+    chrome_options.add_argument('--headless=new')  # Descomentar para modo headless
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--start-maximized')
     chrome_options.add_argument('--ignore-certificate-errors')
