@@ -16,10 +16,11 @@ class AmandaDatabase:
         """Inicializa la conexión a la base de datos"""
         self.connection = None
         self.db_config = {
-            'host': os.getenv('MYSQL_HOST', 'localhost'),
-            'database': os.getenv('MYSQL_DATABASE', 'livetrade_encartes'),
-            'user': os.getenv('MYSQL_USER', 'root'),
-            'password': os.getenv('MYSQL_PASSWORD', '')
+            'host': '144.91.96.79',
+            'database': 'webscrapping_reservation',
+            'password': 'FYFsS7vzyKrXbj66',
+            'user':'rootremote',
+            'port':'3306'
         }
         self.connect()
         self.crear_tablas()

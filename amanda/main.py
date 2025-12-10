@@ -58,7 +58,7 @@ class RutGenerator:
             str: RUT formateado (ej: 12.345.678-9)
         """
         # Generar número base aleatorio entre 18.000 y 20.000
-        rut_base = random.randint(18000000, 20000000)
+        rut_base = random.randint(18000000, 18200000)
 
         # Calcular dígito verificador
         dv = RutGenerator.calcular_digito_verificador(rut_base)
