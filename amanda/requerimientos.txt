@@ -1,0 +1,12 @@
+selenium
+pandas
+xlsxwriter
+Pillow
+requests
+boto3
+awswrangler
+BeautifulSoup4
+mysql-connector-python
+pymysql
+SQLAlchemy
+DrissionPage
